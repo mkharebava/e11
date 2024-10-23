@@ -1,0 +1,112 @@
+.backgr {
+    background-image: url(backgr.png);
+    width: 1505px;
+    height: 866px;
+}
+
+.mze {
+    width: 272px;
+    height: 263px;
+    animation: rotate 3s infinite linear;
+    margin-left: 600px;
+    margin-top: 32px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.cloudd{
+    position: relative;
+    top: -200px; 
+    left: 1200px;
+    animation: moving 4s infinite linear;
+}
+@keyframes moving{
+0%{
+    transform: translate(0px,0px);
+}
+25%{
+    transform: translate(-325px,100px);
+}
+50%{
+    transform: translate(-650px,-80px);
+}
+75%{
+    transform: translate(-975px,100px);
+}
+100%{
+    transform: translate(-1400px,-80px);
+}
+}
+.tree{
+    position: relative;
+    top: -200px;
+    animation: straightmoving 1s infinite linear;
+}
+@keyframes straightmoving{
+    0%{
+        transform: translateX(1250px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.redman{
+    position: relative;
+    top: -140px;
+    animation: strmove 8s infinite linear;
+}
+@keyframes strmove{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(1400px);
+    }
+}
+.greenman{
+    position: relative;
+    top: -150px;
+    animation: sstrmove 8s infinite linear;
+}
+@keyframes sstrmove{
+    0%{
+        transform: translateX(1400px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.chito{
+    width: 100px;
+    height: 100px;
+}
+.chit{
+    position: relative;
+    top: -900px; 
+    left: 10px;
+    animation: movingg 6s infinite linear;
+}
+@keyframes movingg{
+0%{
+    transform: translate(0px,0px);
+}
+25%{
+    transform: translate(325px,150px);
+}
+50%{
+    transform: translate(650px,-80px);
+}
+75%{
+    transform: translate(975px,100px);
+}
+100%{
+    transform: translate(1400px,-80px);
+}
+}
